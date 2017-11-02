@@ -1,0 +1,114 @@
+h1, h2, h3, p, a  {font-family: 'Work Sans', sans-serif;}
+
+
+h1 { text-align: center;}
+h2 { margin-left: 1.3em;}
+
+p {text-align: center;}
+
+a:hover{
+    color: darkgrey;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-size: 1.2em;
+    
+    margin: 0;
+         background-color: #000000;
+            color: white;
+}
+
+    
+.column {
+    float: left;
+    margin-right: 3em;
+
+}
+
+    
+.content {
+    float: left;
+    padding-left: 30px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 25%;
+}
+
+.folio {width: 50%;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+    nav {font-size: 4.5em;}
+    ul {list-style: none;}
+    
+    h1 {font-size: 4em;}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.6;
+    color: black;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background:white;
+    color: black;
+    
+    border-radius:50%
+}
+
+/* Twitter */
+.fa-twitter {
+   background:white;
+    color: black;
+    width:auto;
+    border-radius: 50%
+}
+
+.fa-instagram {
+  background:white;
+    color: black;
+  width:auto;
+  border-radius: 50%
+}
+
+.fa-tumblr {
+  background:white;
+    color: black;
+  border-radius: 50%  
+}
+
+
